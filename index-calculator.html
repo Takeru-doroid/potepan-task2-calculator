@@ -11,37 +11,38 @@
       <input id="result" class="textarea" readonly="readonly">
     </div>
     <!--calc()という関数にonclick属性値を置き換えてあげる-->
+    <!--calc関数、addsub関数にそれぞれ置き換えてあげる-->
     <div class="button-list">
       <div class="first-list">
-        <button onclick="calc(`7`)">7</button>
-        <button onclick="calc(`8`)">8</button>
-        <button onclick="calc(`9`)">9</button>
-        <button onclick="addsub(`+`)">+</button>
+        <button onclick="calc('7')">7</button>
+        <button onclick="calc('8')">8</button>
+        <button onclick="calc('9')">9</button>
+        <button onclick="addsub('+')">+</button>
       </div>
-      
+      <!--calc関数、addsub関数にそれぞれ置き換えてあげる-->
       <div class="second-list">
-        <button onclick="calc(`4`)">4</button>
-        <button onclick="calc(`5`)">5</button>
-        <button onclick="calc(`6`)">6</button>
-        <button onclick="addsub(`-`)">-</button>
+        <button onclick="calc('4')">4</button>
+        <button onclick="calc('5')">5</button>
+        <button onclick="calc('6')">6</button>
+        <button onclick="addsub('-')">-</button>
       </div>
-      
+      <!--calc関数、multidiv関数にそれぞれ置き換えてあげる-->
       <div class="third-list">
-        <button onclick="calc(`1`)">1</button>
-        <button onclick="calc(`2`)">2</button>
-        <button onclick="calc(`3`)">3</button>
-        <button onclick="multidiv(`*`)">×</button>
+        <button onclick="calc('1')">1</button>
+        <button onclick="calc('2')">2</button>
+        <button onclick="calc('3')">3</button>
+        <button onclick="multidiv('*')">×</button>
       </div>
-        
+      <!--zero関数、dod関数、multidiv関数にそれぞれ置き換えてあげる-->
       <div class="forth-list">
-        <button id="zero" onclick="zero(`0`)">0</button>
-        <button onclick="zero(`00`)">00</button>
-        <button onclick="dod(`.`)">.</button>
-        <button onclick="multidiv(`/`)">÷</button>
+        <button onclick="zero('0')">0</button>
+        <button onclick="zero('00')">00</button>
+        <button onclick="dod('.')">.</button>
+        <button onclick="multidiv('/')">÷</button>
       </div>
       <!--reset関数、equal関数にそれぞれ置き換えてあげる-->
       <div class="fifth-list">
-        <button onclick="reset(``)">AC</button>
+        <button onclick="reset()">AC</button>
         <button onclick="equal()">=</button>
       </div>
       
