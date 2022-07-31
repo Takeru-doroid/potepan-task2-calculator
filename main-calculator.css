@@ -1,0 +1,20 @@
+*{
+  box-sizing:border-box;
+}
+
+.textarea{
+  width:32%;
+}
+
+.first-list,.second-list,.third-list,.forth-list{
+  display:flex;
+}
+
+.fifth-list{
+  display:flex;
+  width:200%;
+}
+
+button{
+  width:8%;
+}
